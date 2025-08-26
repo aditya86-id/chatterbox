@@ -7,18 +7,20 @@
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "@clerk/express": "^1.7.4",
+    "@sentry/node": "^10.5.0",
+    "@sentry/vite-plugin": "^4.1.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "inngest": "^3.40.1",
     "mongoose": "^8.16.5",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "stream-chat": "^9.17.0"
   }
 }

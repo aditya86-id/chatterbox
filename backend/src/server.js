@@ -1,4 +1,4 @@
-import "../instrument.mjs";
+import "../instrument.js";
 import express from "express";
 import { ENV } from "./config/env.js";
 import { connectDB } from "./config/db.js";
@@ -7,11 +7,13 @@ import { functions, inngest } from "./config/inngest.js";
 import { serve } from "inngest/express";
 import chatRoutes from "./routes/chat.route.js";
 
+
 import cors from "cors";
 
 import * as Sentry from "@sentry/node";
 
 const app = express();
+
 
 app.use(express.json());
 app.use(cors({ origin: ENV.CLIENT_URL, credentials: true }));
