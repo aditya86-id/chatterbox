@@ -1,4 +1,3 @@
-# ✨ Full Stack Realtime Chat App ✨
 ### Setup .env file
 
 ```js
